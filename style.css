@@ -1,0 +1,1260 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+    font-family: "Open Sans",sans-serif;
+}
+
+h2{
+    font-family: "Kreon",sans-serif;
+    position: relative;
+    top: 65px;
+    margin-left: 35px;
+}
+
+.yazi{
+    color: white;
+    font-family: "Kanit",sans-serif;
+    position: relative;
+    top: 90px;
+    margin-left: 35px;
+}
+
+.container{
+    position: relative;
+    top: 40px;
+    margin-left: 65px;
+    background-color: rgb(48, 48, 48);
+    width: 300px;
+    height: 470px;
+}
+
+img{
+    border-radius: 100px;
+    margin-left: 90px;
+    position: relative;
+    top: 45px;
+}
+
+.container2{
+    position: relative;
+    top: -519px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 360px;
+    color: blue;
+    /* padding: 1rem; */
+}
+
+.math11{
+    position: relative;
+    top: 42px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.math11:hover {
+    color: black;
+  }
+
+.math1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+ 
+.math1:hover {
+    color: black;
+  }
+
+h6{
+    position: relative;
+    top: 55px;
+    margin-left: 45px
+}
+
+.text{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input{
+    border: none;
+    outline: none;
+    background: rgb(48, 48, 48);
+    height: 100%;
+    padding: 0 10px;
+    font-size: 15px;
+    width: 295px;
+    height: 50px;
+    position: relative;
+    top: -370px;
+    margin-left: 68px;  
+}
+
+.button{
+    position: relative;
+    top: -407px;
+    margin-left: 320px;
+    color:  rgb(124, 124, 124);
+}
+
+.button:hover{
+    color: white;
+}
+
+.container3{
+    position: relative;
+    top: -540px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 440px;
+    color: blue;
+}
+
+.mat2{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.mat2:hover {
+    color: black;
+  }
+
+.h6{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p2{
+    color: black;
+    position: relative;
+    top: 90px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sehifeler{
+    background-color:  rgb(48, 48, 48);
+    width: 295px;
+    height: 210px;
+    position: relative;
+    color: rgb(124, 124, 124);
+    top: -700px;
+    margin-left: 68px;
+}
+
+hr{
+    background-color: black;
+}
+
+h4{
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+    color: white;
+}
+
+.a{
+    position: relative;
+    top: 35px;
+    margin-left: 23px;
+    font-size: 15px;
+}
+
+
+.container4{
+    position: relative;
+    top: -700px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 460px;
+    color: blue;
+}
+
+.bh1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.bh1:hover {
+    color: black;
+}
+
+.h62{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p3{
+    color: black;
+    position: relative;
+    top: 75px;
+    margin-left: -5px;
+    padding: 10px 50px;
+}
+
+.container5{
+    position: relative;
+    top: -660px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 410px;
+    color: blue;
+}
+
+.oh1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.oh1:hover {
+    color: black;
+}
+
+.h63{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p4{
+    color: black;
+    position: relative;
+    top: 75px;
+    margin-left: -5px;
+    padding: 10px 50px;
+}
+
+.container6{
+    position: relative;
+    top: -620px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 410px;
+    color: blue;
+}
+
+.rh1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rh1:hover{
+    color: black;
+}
+
+.h64{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p5{
+    color: black;
+    position: relative;
+    top: 90px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.kategories{
+    position: relative;
+    top: -800px;
+}
+
+.yanhisse{
+    background-color:  rgb(48, 48, 48);
+    width: 295px;
+    height: 3100px;
+    position: relative;
+    color: rgb(124, 124, 124);
+    top: -2280px;
+    margin-left: 68px;
+} 
+
+.hrr{
+    position: relative;
+    top: 50px;
+}
+
+.tag{
+    position: relative;
+    top: 26px;
+}
+
+.pi1:hover{
+    color: white;
+}
+
+.pi2:hover{
+    color: white;
+}
+
+.pi4:hover{
+    color: white;
+}
+
+.pi3:hover{
+    color: white;
+}
+ 
+.pi5:hover{
+    color: white;
+}
+
+.pi6:hover{
+    color: white;
+}
+
+.pi7:hover{
+    color: white;
+}
+
+.pi8:hover{
+    color: white;
+}
+
+.pi9:hover{
+    color: white;
+}
+
+.pi10:hover{
+    color: white;
+}
+
+.pi11:hover{
+    color: white;
+}
+
+.pi12:hover{
+    color: white;
+}
+
+.pi13:hover{
+    color: white;
+}
+
+.pi14:hover{
+    color: white;
+}
+
+.pi15:hover{
+    color: white;
+}
+
+.pi16:hover{
+    color: white;
+}
+
+.pi17:hover{
+    color: white;
+}
+
+.pi18:hover{
+    color: white;
+}
+
+.pi19:hover{
+    color: white;
+}
+
+.pi20:hover{
+    color: white;
+}
+
+.pi21:hover{
+    color: white;
+}
+
+.pi22:hover{
+    color: white;
+}
+
+.pi23:hover{
+    color: white;
+}
+
+.pi24:hover{
+    color: white;
+}
+
+.pi25:hover{
+    color: white;
+}
+
+.kategoriler{
+    position: relative;
+    top: -5280px;
+    margin-left: 85px;
+    color: rgb(124, 124, 124);
+} 
+
+.durum{
+    position: relative;
+    top: 26px;
+}
+
+.aylikdurum{
+    background-color:  rgb(48, 48, 48);
+    width: 295px;
+    height: 900px;
+    position: relative;
+    color: rgb(124, 124, 124);
+    top: -4380px;
+    margin-left: 68px;
+} 
+
+.iller{
+    position: relative;
+    top: -5190px;
+    color: white;
+    margin-left: 88px;
+}
+
+.dd1:hover{
+    color: white;
+}
+
+.dd2:hover{
+    color: white;
+}
+
+.dd3:hover{
+    color: white;
+}
+
+.dd4:hover{
+    color: white;
+}
+
+.dd5:hover{
+    color: white;
+}
+
+.dd6:hover{
+    color: white;
+}
+
+.dd7:hover:hover{
+    color: white;
+}
+
+
+.container7{
+    position: relative;
+    top: -6900px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 360px;
+    color: blue;
+}
+
+.h65{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p6{
+    color: black;
+    position: relative;
+    top: 90px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rsh1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rsh1:hover{
+    color: black;
+}
+
+.container8{
+    position: relative;
+    top: -6850px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 360px;
+    color: blue;
+}
+
+.h66{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p7{
+    color: black;
+    position: relative;
+    top: 90px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.roh1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.roh1:hover{
+    color: black;
+}
+
+
+.container9{
+    position: relative;
+    top: -6810px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 348px;
+    color: blue;
+}
+
+.h67{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p8{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rph1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rph1:hover{
+    color: black;
+}
+
+.container10{
+    position: relative;
+    top: -6770px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 314px;
+    color: blue;
+}
+
+.h68{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p9{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rrph1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rrph1:hover{
+    color: black;
+}
+
+.container11{
+    position: relative;
+    top: -6730px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 320px;
+    color: blue;
+}
+
+.h17{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p10{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rdh1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rdh1:hover{
+    color: black;
+}
+
+.container12{
+    position: relative;
+    top: -6690px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 320px;
+    color: blue;
+}
+
+.h10{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p11{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rwh1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rwh1:hover{
+    color: black;
+}
+
+.container13{
+    position: relative;
+    top: -6650px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 430px;
+    color: blue;
+}
+
+.h03{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p12{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rah1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rah1:hover{
+    color: black;
+}
+
+.container14{
+    position: relative;
+    top: -6610px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 350px;
+    color: blue;
+}
+
+.h27{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p13{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rpdh1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rpdh1:hover{
+    color: black;
+}
+
+
+.container15{
+    position: relative;
+    top: -6570px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 400px;
+    color: blue;
+}
+
+.h620{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p14{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rhh1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rhh1:hover{
+    color: black;
+}
+
+.container16{
+    position: relative;
+    top: -6530px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 360px;
+    color: blue;
+}
+
+.h613{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p16{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rpsh1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rpsh1:hover{
+    color: black;
+}
+
+.container17{
+    position: relative;
+    top: -6490px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 360px;
+    color: blue;
+}
+
+.h606{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p17{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rplh1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rplh1:hover{
+    color: black;
+}
+
+.container18{
+    position: relative;
+    top: -6450px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 380px;
+    color: blue;
+}
+
+.h627s{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p18{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rpgh1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rpgh1:hover{
+    color: black;
+}
+
+.container19{
+    position: relative;
+    top: -6410px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 360px;
+    color: blue;
+}
+
+.h20{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p19{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rpch1{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rpch1:hover{
+    color: black;
+}
+
+.container20{
+    position: relative;
+    top: -6370px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 440px;
+    color: blue;
+}
+
+.h13{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p20{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rpd{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rpd:hover{
+    color: black;
+}
+
+.container21{
+    position: relative;
+    top: -6330px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 330px;
+    color: blue;
+}
+
+.h06{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p21{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rpmhh{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rpmhh:hover{
+    color: black;
+}
+
+.container22{
+    position: relative;
+    top: -6290px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 355px;
+    color: blue;
+}
+
+.h30{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p22{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.rpl{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.rpl:hover{
+    color: black;
+}
+
+.container23{
+    position: relative;
+    top: -6250px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 355px;
+    color: blue;
+}
+
+.h24{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p23{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ppr{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.ppr:hover{
+    color: black;
+}
+
+.container24{
+    position: relative;
+    top: -6210px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 455px;
+    color: blue;
+}
+
+.h623{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p24{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mt{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.mt:hover{
+    color: black;
+}
+
+.container25{
+    position: relative;
+    top: -6170px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 380px;
+    color: blue;
+}
+
+.h14{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p25{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.eeb{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.eeb:hover{
+    color: black;
+}
+
+.container26{
+    position: relative;
+    top: -6130px;
+    margin-left: 400px;
+    margin-left: 400px;
+    background-color: white;
+    width: 870px;
+    height: 400px;
+    color: blue;
+}
+
+.h08{
+    position: relative;
+    top: 55px;
+    margin-left: 45px;
+    color: black;
+}
+
+.p26{
+    color: black;
+    position: relative;
+    top: 80px;
+    margin-left: -5px;
+    padding: 10px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bsb{
+    position: relative;
+    top: 47px;
+    margin-left: 40px;
+    color: blue;
+}
+
+.bsb:hover{
+    color: black;
+}

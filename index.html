@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+
+    <style>
+        .home{
+            color: white;
+            position: relative;
+            top: 220px;
+            margin-left: 40px;
+            font-size: 18px;
+        }
+
+        .geri{
+            color: white;
+            position: relative;
+            top: 197px;
+            margin-left: 240px;
+            font-size: 18px;
+        }
+
+        .bar{
+            color: white;
+            position: relative;
+            top: 173px;
+            margin-left: 140px;
+            font-size: 18px;
+        }
+
+        .linkedin{
+            color: white;
+            position: relative;
+            top: 60px;
+            margin-left: 90px;
+            background-color: rgb(32, 32, 32);
+            width: 30px;
+            height: 30px;
+            border-radius: 100px;
+            padding: 4px 8px;
+        }
+
+        .linkedin:hover{
+            color: black;
+            background-color: white;
+        }
+
+        .youtube{
+            color: white;
+            position: relative;
+            top: 30px;
+            margin-left: 125px;
+            background-color: rgb(32, 32, 32);
+            width: 30px;
+            height: 30px;
+            border-radius: 100px;
+            padding: 4px 8px;
+        }
+
+        .youtube:hover{
+            color: black;
+            background-color: white;
+        }
+
+        .github{
+            color: white;
+            position: relative;
+            top: 0px;
+            margin-left: 160px;
+            background-color: rgb(32, 32, 32);
+            width: 30px;
+            height: 30px;
+            border-radius: 100px;
+            padding: 4px 8px;
+        }
+
+        .github:hover{
+            color: black;
+            background-color: white;
+        }
+
+        .logos{
+            margin-left: 70px;
+            position: relative;
+            top: -150px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <a href="#">
+            <img class="img1" src="Basliqsekli.jpg" width="120" height="120" alt="">
+        </a>
+        <a style="text-decoration: none;" href="#">
+            <h2 style="color: white;">Burak Selim Şenyurt</h2>
+        </a>
+        <p class="yazi">Matematik Mühendisi Bir <br>Bilgisayar Programcısının <br> Notları</p><hr style="position: relative; top: 200px; height:1px; border-width:0; color: rgb(22, 22, 22); background-color: rgb(22, 22, 22)">
+        <div class="home">
+            <i class="fa-solid fa-house-chimney"></i>
+        </div>
+        <div class="geri">
+            <i class="fa-solid fa-right-to-bracket"></i>
+        </div>
+        <div class="bar">
+
+
+        <i class="fa-solid fa-bars-staggered"></i></div>
+        </div>
+
+
+        <div class="logos">
+        <div class="linkedin">
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+
+        <div class="youtube">
+            <i class="fa-brands fa-square-youtube"></i>
+        </div>
+
+        <div class="github">
+            <i class="fa-brands fa-git"></i>
+        </div>
+        </div>
+    </div>
+
+    <div class="container2"> 
+        <a style="text-decoration: none;" href="#"><h1 class="math11">Matematik ve Oyun Programlama - Missile <br> Command - Final</h1></a>
+        <h6 style="color: black;">29 KASIM 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="text">Hiçbir ödül veya karşılık beklemeden kendinizi iyi hissetmek adına en son ne yaptığınızı hatırlıyor musunuz? Bu öyle değişik bir iç motivasyon ki kendinizi bir amaca adayarak hareket etmenizi sağlıyor. Karşılaşılan engeller engel olmaktan çıkıyor ve anlamak istediğiniz şeyler haline geliyor. En azından ben birkaç haftadır böyle hissediyorum. Cevval bir oyun programcısı olmak ya da akademide bu alana dair dersler vermek gibi bir amacım yok ama çok güçlü bir iç motivasyonum var; öğrenmek… <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a> </p>
+    </div>
+
+    <div class="search">
+        <input type="search" placeholder="ARAMA...">
+        <div class="button"><span  class="fa fa-search"></span></div>
+    </div>
+
+    <div class="container3">
+        <a style="text-decoration: none;" href="#"><h1 class="mat2">Matematik ve Oyun Programlama - Missile <br> Command - Bölüm 2</h1></a>
+        <h6 class="h6">25 KASIM 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p2">Bir önceki programımızda Atari'nin efsane oyunlardan Missile Command'in arkasındaki matematik enstrümanları incelemeye başlamıştık. İkinci bölümde ise zeminin orta noktasına ve şehrin biraz yukarsına füze bataryamızı yerleştiriyoruz. Bu füze bataryası, oyuncu mouse imlecini ekranda hareket ettirdikçe oraya doğru dönecek bir çizgiden ibaret esasında. Oyuncu mouse imlecinin olduğu yerde sol tuşa tıklarsa da bataryanın namlu ucundan bu noktaya doğru sevimli ve mavi renkte minik bir dörtgen fırlıyor. Herhangi bir zamanda sahnede sadece üç tane mermi oluyor. Hatta füze bataryası 30 derecenin altına veya 150 derecenin üstüne hareket edemediği gibi ateş de edemiyor. Diğer yandan mermi, mouse ile tıklanan ilk noktaya vardığında sahneden kaldırılıyor. Mermiler belli bir hızda ama şehre inen füzelerden azıcık daha hızlı şekilde hareket ediyorlar. <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a> </p>
+    </div>
+
+    <div class="sehifeler">
+        <h4>SAYFALARIM</h4><br><br>
+        <hr style="height:1px; border-width:0; color: rgb(22, 22, 22); background-color: rgb(22, 22, 22)">
+        <div class="a"><a style="text-decoration: none; color: rgb(124, 124, 124);" href="#"><p>Almanac</p></a>
+        <a style="text-decoration: none; color: rgb(124, 124, 124);" href="#"><p>Ben Kimim?</p></a>
+        <a style="text-decoration: none; color: rgb(124, 124, 124);" href="#"><p>Java ile 24 Kahve Molası Dökümanı</p></a></div>
+    </div>
+
+    <div class="container4">
+        <a style="text-decoration: none;" href="#"><h1 class="bh1">Matematik ve Oyun Programlama - Missile <br> Command - Bölüm 1</h1></a>
+        <h6 class="h62">18 KASIM 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p3">Uzun bir süredir Rust programlama dili ile hobi amaçlı uğraşıyorum. Son birkaç aydırda Rust tarafında kullanılan oyun motorlarını kurcalamaktayım. Ancak birkaç haftadır amacım oyun programlamada kullanılan temel matematik enstrümanları öğrenmek. Bana göre bu alanda ilerleyebilmemin en iyi yolu bilinen oyunların birer klonunu yazmaya çalışmak. Onca vektör, açı, nokta çarpım problemini işledikten sonra ilk gözüme kestirdiğim zamanın efsane Atari oyunlarından olan Missile Command. Kaynaklara göre seksenli yılların en kült oyunlarından birisi olarak karşımıza çıkıyor. Oyunda ekranın üst kısmında rastgele açılarda ve sayıda füzenin üssümüze inişine şahit oluyoruz. Oyuncu üssün tam orta yerinde duran füze rampasında ateş ederek şehre inen füzeleri patlatmaya çalışıyor. Görüntü tamamen piksel hareketlerinden oluşmakta ve benim asıl ilgilendiğim oyunun arkasındaki olası matematik hesaplamalar. <br> <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a></p>
+    </div>
+
+    <div class="container5">
+        <a style="text-decoration: none;" href="#"><h1 class="oh1">Oyun Geliştirmede Kullanılan Temel Matematik <br> Enstrümanlar</h1></a>
+        <h6 class="h63">14 EKIM 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p4">Oyun sahasına ekranın sağından gelip düz ve çapraz bir çizgide ilerledikten sonra dairesel hareketle devam edip rastgele zamanlarda ateş eden uzay gemisinin kodlamasını öğrenirken ortaya döküken kosinüs ve sinüs çağrıları sonrası ise şöyle bir durup düşünmeye başladım. Öncesinde kağıt kalem alıp biraz karalama yapmalıydım. Bugünün popüler oyun motorlarından Unity, Unreal Engine gibilerinin çoğu fizik motorlarından ışıklandırmaya, gölgeleme efektlerinden çarpışma hesaplamalarına, izdüşümsel kamera bazlı 2D sahalardan sıçrama efektlerine kadar pek çok şeyin temel hesaplamasını hazır olarak sunmakta. Hatta IDE desteği sunanlar çok daha öne çıkmakta. Ancak oyun programlamanın temellerinde her zaman olduğu gibi matematik var ve bu atlanmaması gereken bir mevzu... <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a> </p>
+    </div>
+
+    <div class="container6">
+        <a style="text-decoration: none;" href="#"><h1 class="rh1">Rust Pratikleri - Value Moved Here</h1></a>
+        <h6 class="h64">22 MAYIS 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p5">Sıklıkla vurguladığım üzere Rust programlama dili bellek yönetimi ve güvenliği konusunda son derece hassas kurallar içeriyor. Değişken sahipliği kuralları ve ödünç alma kontrolcüleri(Ownership, borrow checker) olası bir çok bellek probleminin henüz derleme aşamasındayken önüne geçilmesini sağlıyor ancak dilin öğrenme eğrisini de oldukça dikleştiriyor(En azından ilk zamanlarda) Esasında C,C++ türevi sayabileceğimiz Rust bir Garbage Collector mekanizması kullanmaması belleğin iç dinamiklerini daha iyi bilmemizi de gerektiriyor. Stack ve heap özelinde değişkenlerin nasıl tutulduğu, yer ayarlamalarının nasıl yapıldığını bilmek programcı açısından oldukça önemli. Bu sayede pek çok derleme zamanı hatasını anlamlandırmak kolaylaşıyor. Bu yazıdaki amacımız Rust öğrenenlerin sıklıkla yakalandığı "Value borrowed here after move" hatasını bellek çalışma prensipleri kapsamında özetlemek. <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a> </p>
+    </div>
+
+    <div class="kategories"></div>
+    <div class="yanhisse">
+        <h4 class="tag">KATEGORILER</h4>
+        <hr class="hrr" style="height:1px; border-width:0; color: rgb(22, 22, 22); background-color: rgb(22, 22, 22)">    
+    </div>
+
+    
+    <div class="kategoriler">
+        <p style="font-size: 15px;"><i style="rotate: 45deg; color: orange; font-size: 15px" class="fa-solid fa-wifi"></i> .Net Core (48)</p>
+
+        <p class="pii1" style="font-size: 15px; position: relative; top: 8px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> .Net framework 4.0 (15)</p>
+
+        <p class="pi2" style="font-size: 15px; position: relative; top: 16px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> .Net Framework 4.5 (7)</p>
+
+        <p class="pi4" style="font-size: 15px; position: relative; top: 24px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> .Net Remoting (11)</p>
+
+        <p class="pi5" style="font-size: 15px; position: relative; top: 32px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> .Net Ria Services (5)</p>
+
+        <p class="pi6" style="font-size: 15px; position: relative; top: 40px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> .Net Temelleri (4)</p>
+
+        <p class="pi7" style="font-size: 15px; position: relative; top: 48px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Ado.Net (47)</p>
+
+        <p class="pi8" style="font-size: 15px; position: relative; top: 56px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Ado.net 2.0 (12)</p>
+
+        <p class="pi9" style="font-size: 15px; position: relative; top: 64px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Ado.Net Data Services (11)</p>
+
+        <p class="pi10" style="font-size: 15px; position: relative; top: 72px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Ado.Net Sync Services (1)</p>
+
+        <p class="pi11" style="font-size: 15px; position: relative; top: 80px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Algoritma (6)</p>
+
+        <p class="pi12" style="font-size: 15px; position: relative; top: 88px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Angular (5)</p>
+
+        <p class="pi13" style="font-size: 15px; position: relative; top: 96px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Anti Patterns (2)</p>
+
+        <p class="pi14" style="font-size: 15px; position: relative; top: 104px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Asp.Net (18)</p>
+
+        <p class="pi15" style="font-size: 15px; position: relative; top: 112px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Asp.Net 2.0 (26)</p>
+
+        <p class="pi16" style="font-size: 15px; position: relative; top: 120px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Asp.Net 4.0 (5)</p>
+
+        <p class="pi17" style="font-size: 15px; position: relative; top: 128px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Asp.Net 4.0 Beta 2 (3)</p>
+
+        <p class="pi18" style="font-size: 15px; position: relative; top: 136px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Asp.Net 4.5 (7)</p>
+
+        <p class="pi19" style="font-size: 15px; position: relative; top: 144px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Asp.Net Core (10)</p>
+
+        <p class="pi20" style="font-size: 15px; position: relative; top: 152px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Asp.Net Wep API (10)</p>
+
+        <p class="pi21" style="font-size: 15px; position: relative; top: 160px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> AWS (3)</p>
+
+        <p class="pi22" style="font-size: 15px; position: relative; top: 168px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Azure (5)</p>
+
+        <p class="pi23" style="font-size: 15px; position: relative; top: 176px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> BCL (1)</p>
+
+        <p class="pi24" style="font-size: 15px; position: relative; top: 184px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> bing (2)</p>
+
+        <p class="pi25" style="font-size: 15px; position: relative; top: 192px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Biztalk (1)</p>
+
+        <p class="pi26" style="font-size: 15px; position: relative; top: 200px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Blazor (1)</p>
+
+        <p class="pi27" style="font-size: 15px; position: relative; top: 208px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> C# (153)</p>
+
+        <p class="pi28" style="font-size: 15px; position: relative; top: 216px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> C# 3.0 (9)</p>
+
+        <p class="pi29" style="font-size: 15px; position: relative; top: 224px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> C# 4.0 (27)</p>
+
+        <p class="pi30" style="font-size: 15px; position: relative; top: 232px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> C# 6.0 (2)</p>
+
+        <p style="font-size: 15px; position: relative; top: 240px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> C# 7.0 (2)</p>
+
+        <p style="font-size: 15px; position: relative; top: 248px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> CodeKata (2)</p>
+
+        <p style="font-size: 15px; position: relative; top: 256px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Dart (1)</p>
+        
+        <p style="font-size: 15px; position: relative; top: 264px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Data Structers, Algorithms (5)</p>
+        
+        <p style="font-size: 15px; position: relative; top: 272px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Deneyimler (2)</p>
+
+        <p style="font-size: 15px; position: relative; top: 280px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Developers Tube (3)</p>
+
+        <p style="font-size: 15px; position: relative; top: 288px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> DevOps (3)</p>
+
+        <p style="font-size: 15px; position: relative; top: 296px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Dokuman (4)</p>
+
+        <p style="font-size: 15px; position: relative; top: 304px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Eğitimlerv (10)</p>
+
+        <p class="pi3" style="font-size: 15px; position: relative; top: 312px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Elasticsearch (1)</p>
+
+        <p style="font-size: 15px; position: relative; top: 320px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Enterprise Library (1)</p>
+
+        <p style="font-size: 15px; position: relative; top: 328px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Entity Framework (29)</p>
+
+        <p style="font-size: 15px; position: relative; top: 336px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> GCP (4)</p>
+
+        <p style="font-size: 15px; position: relative; top: 344px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Golang (28)</p>
+
+        <p style="font-size: 15px; position: relative; top: 352px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Journal (6)</p>
+
+        <p style="font-size: 15px; position: relative; top: 360px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Kitap Tavsiyelerim (4)</p>
+
+        <p style="font-size: 15px; position: relative; top: 368px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> LINQ (9)</p>
+
+        <p style="font-size: 15px; position: relative; top: 376px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> LINQ to SQL (4)</p>
+
+        <p style="font-size: 15px; position: relative; top: 384px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Motoko (1)</p>
+
+        <p style="font-size: 15px; position: relative; top: 392px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> NedirTv? (23)</p>
+
+        <p style="font-size: 15px; position: relative; top: 400px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Node.js (19)</p>
+
+        <p style="font-size: 15px; position: relative; top: 408px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> NoSQL (11)</p>
+
+        <p style="font-size: 15px; position: relative; top: 416px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Office Development (2) </p>
+
+        <p style="font-size: 15px; position: relative; top: 424px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Paralel Programming (21)</p>
+
+        <p style="font-size: 15px; position: relative; top: 432px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> PLINQ (5)</p>
+
+        <p style="font-size: 15px; position: relative; top: 440px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Podcast (6)</p>
+
+        <p style="font-size: 15px; position: relative; top: 448px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Powershell (2)</p>
+
+        <p style="font-size: 15px; position: relative; top: 456px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> python (14)</p>
+
+        <p style="font-size: 15px; position: relative; top: 464px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Raspberry Pi (6)</p>
+
+        <p style="font-size: 15px; position: relative; top: 472px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> React (3)</p>
+
+        <p style="font-size: 15px; position: relative; top: 480px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Rest (6)</p>
+
+        <p style="font-size: 15px; position: relative; top: 488px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Ruby (52)</p>
+
+        <p style="font-size: 15px; position: relative; top: 496px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Rust (24)</p>
+
+        <p style="font-size: 15px; position: relative; top: 504px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Scala (1)</p>
+
+        <p style="font-size: 15px; position: relative; top: 512px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Seminerler (40)</p>
+
+        <p style="font-size: 15px; position: relative; top: 520px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Silverlight 4.0 (9)</p>
+
+        <p style="font-size: 15px; position: relative; top: 528px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> SOA (3)</p>
+
+        <p style="font-size: 15px; position: relative; top: 536px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Spring Boot (3)</p>
+
+        <p style="font-size: 15px; position: relative; top: 544px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> T SQL (6)</p>
+
+        <p style="font-size: 15px; position: relative; top: 552px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Tasarım Kalıpları (Design Patterns) <br> (19)</p>
+
+        <p style="font-size: 15px; position: relative; top: 560px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Tasarım Prensipleri (Design <br> Principles) (11)</p>
+
+        <p style="font-size: 15px; position: relative; top: 568px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Team Foundation Server (10)</p>
+
+        <p style="font-size: 15px; position: relative; top: 576px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Tek Fotoluk Ipucu (140)</p>
+
+        <p style="font-size: 15px; position: relative; top: 584px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i>Teknik Dışı Konular (21)</p>
+
+        <p style="font-size: 15px; position: relative; top: 592px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> TPL (14)</p>
+
+        <p style="font-size: 15px; position: relative; top: 600px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Velocity Project (1)</p>
+
+        <p style="font-size: 15px; position: relative; top: 608px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Visual Studio (3)</p>
+
+        <p style="font-size: 15px; position: relative; top: 616px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Vue.js (4)</p>
+
+        <p style="font-size: 15px; position: relative; top: 624px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WCF (84)</p>
+
+        <p style="font-size: 15px; position: relative; top: 632px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WCF 4.0 (14)</p>
+
+        <p style="font-size: 15px; position: relative; top: 640px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WCF 4.0 Beta 1 (18)</p>
+
+        <p style="font-size: 15px; position: relative; top: 648px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WCF 4.0 Beta 2 (2)</p>
+
+        <p style="font-size: 15px; position: relative; top: 656px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WCF 4.0 RC (1)</p>
+
+        <p style="font-size: 15px; position: relative; top: 664px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WCF 4.5 (8)</p>
+
+        <p style="font-size: 15px; position: relative; top: 672px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WCF Data Services (5)</p>
+
+        <p style="font-size: 15px; position: relative; top: 680px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WCF Eco System (23)</p>
+
+        <p style="font-size: 15px; position: relative; top: 688px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WCF Öğreniyorum (4)</p>
+
+        <p style="font-size: 15px; position: relative; top: 696px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WCF RIA Services (11)</p>
+        
+        <p style="font-size: 15px; position: relative; top: 704px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WCF WebHttp Services (13)</p>
+
+        <p style="font-size: 15px; position: relative; top: 712px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WF (12)</p>
+
+        <p style="font-size: 15px; position: relative; top: 720px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WF 4.0 (8)</p>
+
+        <p style="font-size: 15px; position: relative; top: 728px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WF 4.0 Beta 1 (5)</p>
+
+        <p style="font-size: 15px; position: relative; top: 736px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WF 4.0 Beta 2(12)</p>
+
+        <p style="font-size: 15px; position: relative; top: 744px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WF 4.0 RC (4)</p>
+
+        <p style="font-size: 15px; position: relative; top: 752px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Windows Azure (3)</p>
+
+        <p style="font-size: 15px; position: relative; top: 760px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Windows Forms (4)</p>
+
+        <p style="font-size: 15px; position: relative; top: 768px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Windows Mobile (1)</p>
+
+        <p style="font-size: 15px; position: relative; top: 776px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Windows Phone (1)</p>
+
+        <p style="font-size: 15px; position: relative; top: 784px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Windows Server AppFabric (2)</p>
+
+        <p style="font-size: 15px; position: relative; top: 792px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Windows Services (4)</p>
+
+        <p style="font-size: 15px; position: relative; top: 800px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> Workflow Foundation Öğreniyorum <br> (15)</p>
+
+        <p style="font-size: 15px; position: relative; top: 808px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> WPF (12)</p>
+
+        <p style="font-size: 15px; position: relative; top: 816px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> XML (2)</p>
+
+        <p style="font-size: 15px; position: relative; top: 824px;"><i style="rotate: 45deg; color: orange; position: relative; font-size: 15px;" class="fa-solid fa-wifi"></i> XML Web Services (13)</p>
+    </div> 
+
+    <div class="aylikdurum">
+        <h4 class="durum">AYLIK DURUM</h4>
+        <hr class="hrr" style="height:1px; border-width:0; color: rgb(22, 22, 22); background-color: rgb(22, 22, 22)">
+    </div>
+
+    <div class="iller">
+        <a style="text-decoration: none; color: rgb(124, 124, 124); font-size: 15px;" href="#">
+            <dl>2022
+                <dd class="dd1" style="margin-left: 18px;">Kasım (3)</dd>
+                <dd class="dd2" style="margin-left: 18px;">Ekim (1)</dd>
+                <dd class="dd3" style="margin-left: 18px;">Mayıs (4)</dd>
+                <dd class="dd4" style="margin-left: 18px;">Nisan (4)</dd>
+                <dd class="dd5" style="margin-left: 18px;">Mart (4)</dd>
+                <dd class="dd6" style="margin-left: 18px;">Şubat (4)</dd>
+                <dd class="dd7" style="margin-left: 18px;">Ocak (1)</dd>
+            </dl>
+        </a>
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 8px;" href="#">2021</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 38px;margin-left: -39px;"  href="#">2020</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 68px;margin-left: -39px;"  href="#">2019</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 98px;margin-left: -38px;"  href="#">2018</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 128px; margin-left: -39px;" href="#">2017</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 158px;
+        margin-left: -39px;" href="#">2016</a>
+        
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 188px;
+        margin-left: -38px;" href="#">2015</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 218px;
+        margin-left: -38px;" href="#">2014</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 248px;
+        margin-left: -38px;" href="#">2013</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 278px;
+        margin-left: -38px;" href="#">2012</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 308px;
+        margin-left: -38px;" href="#">2011</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 338px;
+        margin-left: -39px;" href="#">2010</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 368px;
+        margin-left: -38px;" href="#">2009</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 398px;
+        margin-left: -38px;" href="#">2008</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 428px;
+        margin-left: -39px;" href="#">2007</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 458px;
+        margin-left: -38px;" href="#">2006</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 488px;
+        margin-left: -39px;" href="#">2005</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 518px;
+        margin-left: -38px;" href="#">2004</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 548px;
+        margin-left: -39px;" href="#">2003</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 578px;
+        margin-left: -38px;" href="#">1976</a>
+
+        <a style="text-decoration: none; color: rgb(209, 209, 209); font-size: 15px; position: relative; top: 608px;
+        margin-left: -39px;" href="#">1973</a>
+        </div>
+
+    </div>
+    <div class="container7">
+        <a style="text-decoration: none;" href="#"><h1 class="rsh1">Rust Pratikleri - State Tasarım Kalıbı</h1></a>
+        <h6 class="h65">15 MAYIS 2022 BURAK-SELIM-SENYURT RUST </h6>
+            <p class="p6">Belli bir akış içerisinde ele alınan nesneler belli durumlara sahiptirler. Bu durumlar arasındaki geçişler için fonksiyonlardan yararlanılırken bazı kuralların işletilmesi de istenebilir. Örneğin belli bir duruma sahipken diğer bir duruma geçilmesini engelleyen karar mekanizmaları ve koşullar söz konusudur. Hatta programın belli bir t anında içinde bulunabileceği durumlar bellidir. Nesne yönelimli dillerde bu gibi ihtiyaçlar için davranışsal(Behavioral) kalıplardan olan State tasarım deseni sıklıkla kullanılır. Hatta oyun programlamada State Machine türevli motorlarda nesne durumlarının yönetimi için bu desene ait pratikler söz konusudur. <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a></p>
+    </div>
+
+    <div class="container8">
+        <a style="text-decoration: none;" href="#"><h1 class="roh1">Rust ile Oyun Programlama</h1></a>
+        <h6 class="h66">08 MAYIS 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p7">Uzun süredir Rust programlama dilini öğrenmeye çalışıyorum. Bu yolda yürürken çevrimiçi eğitim materyalleri, blog yazıları ve bültenler haricinde birincil kaynak olarak da kitapları kullanmayı tercih ediyorum. Diğer yandan bir programlama dilini iyi seviyede öğrenmenin bana göre iki yolu var; var olan ürünlerin benzerini yazmak ya da oyun geliştirmeye çalışmak. Bazı yayınlar programlama dilini oyun yazarak öğretmeye çalışıyorlar. Takip ettiğim Herbert Wolverson'un Hands-on Rust: Effective Learning through 2D Game Development and Play isimli kitap da bunlardan birisi. Çok efsane bir öğrenim deneyimi olduğunu ifade edebilirim. <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a></p>
+    </div>
+
+    <div class="container9">
+        <a style="text-decoration: none;" href="#"><h1 class="rph1">Rust Pratikleri - Trait Objects</h1></a>
+        <h6 class="h67">01 MAYIS 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p8">Bir Windows Forms uygulaması düşünelim ya da bir web sayfası. Hatta birden fazla bileşenden (component) oluşan bir mobil uygulama arayüzünü...Temelde ana kontrol üstüne eklenen başka tekil ve karma kontrollerden oluşan bir bütün söz konusudur. Şimdi de ana saha üzerine gelen bu kontrollerin nasıl çizilebildiğini düşünelim. Bir motor büyük ihtimalle belli ortak davranışlara sahip olan bileşenleri, ortamın istediği kıvamda (örneğin HTML olarak) çizme görevini üstlenir. Hatta bu sistemlerde bileşen ağacı öyle bir tasarlanır ki, geliştiriciler isterlerse kendi bileşenleri de tasarlayıp çalışma zamanı motorunun kullanımına sunabilir. <a style="text-decoration: none; color: blue;" href="#"> [Daha fazla]</a> </p>
+    </div>
+    
+    <div class="container10">
+        <a style="text-decoration: none;" href="#"><h1 class="rrph1">Rust Pratikleri - OOP</h1></a>
+        <h6 class="h68">24 NISAN 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p9">Yılların .Net geliştiricisi olunca insan, ister istemez Rust, Go gibi dillerde nesne yönelimli dünyanın karşılıklarını arıyor. Encapsulation, Inheritance, Polymorphsym gibi. Bu konuda araştırmalar yaparken birkaç şey öğrendi tabii ve C# ile yazdığım bazı şeyleri Rust tarafında karşılamak istedim. Sonuçta ortaya şu an okumakta olduğunuz pratik çıktı. Ben daha çok kalıtım ve çok biçimli nesne davranışı konularına eğilmeye çalıştım. Dilerseniz hiç vakit kaybetmeden örneklerimize geçelim. <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a></p>
+    </div>
+
+    <div class="container11">
+        <a style="text-decoration: none;" href="#"><h1 class="rdh1">Rust Pratikleri - Değişkenleri Kopyalayarak veya Referans Olarak Taşımak</h1></a>
+        <h6 class="h17">17 NISAN 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p10">Bu pratikte içinde başka bir enum sabiti kullanan bir enum sabitinin bir fonksiyonda parametre olarak kullanılmasında oluşabilecek Value Moved Here sorununa bakıyoruz. Cümle biraz karışık oldu :D Öyleyse örnek üstünden ilerleyelim. Kod tarafında ilk olarak sorunsuz bir ortam tesis edeceğiz. Problemi oluşturacağız. Ardından iki farklı yolla duruma açıklık getireceğiz. <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a></p>
+    </div>
+
+    <div class="container12">
+        <a style="text-decoration: none;" href="#"><h1 class="rwh1">Rust Pratikleri - Wordle Oyunu</h1></a>
+        <h6 class="h10">10 NISAN 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p11">Doğruyu söylemek gerekirse mobil oyunlarla çok fazla aram yok. Yine de etkileyici grafikleri olmasa da insanları saatlerce esir edebilenlerin nasıl yazıldığını merak etmiyor da değilim. Geçtiğimiz günlerde The Pragmatic Programmers mecrasından Herbert Wolverson'un Wordle isimli popüler bir oyunun Rust ile nasıl yazılacağını anlattığı şu yazısına denk geldim. E boş durur muyum? Adım adım tatbik etmeye karar verdim. Nitekim bu yolculuk Rust ile ilgili birçok şey öğretecekti bana. Her şeyden önce pratik yapacaktım. İşte bu yazıda izlediğim adımları ve kendi yorumlarımı bulabilirsiniz. <a style="text-decoration: none; color: blue;" href="#"> [Daha fazla]</a></p>
+    </div>
+
+    <div class="container13">
+        <a style="text-decoration: none;" href="#"><h1 class="rah1">Rust Pratikleri - Aynı Anda Sadece Tek Bir Değiştirilebilir Referans Olabilir</h1></a>
+        <h6 class="h03">03 NISAN 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p12">Thread'ler ve eş zamanlı iş parçacıkları işin içerisine girdiğinde karşımıza çıkan önemli konulardan biriside mutable türden referansları nasıl kullanacağımızdır. Malum bu thread'ler aynı veri üzerinde değişiklik yapmak isteyebilirler. Data Races oluşmaması Rust'ın temel ilkelerinden birisidir ve bunun en büyük sebebi bellek ortamını güvenli halde koruyabilmektir. Dolayısıyla belleğin referans edilen bölgelerinin bu thread'ler içerisinde yazma amaçlı ele alınması durumlarında kod biraz karmaşıklaşabilir. Öncesinde kuralın ne olduğunu dile getirelim; Rust bir t anında birden fazla mutable referans oluşturulmasına izin vermez, buna müsaade edecek şekilde kodlama yapmamızı engeller. Elbette konuyu anlamanın en güzel yolu basit bir örnek üzerinden ilerlemekle mümkün. Öyleyse başlayalım. <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a></p>
+    </div>
+
+    <div class="container14">
+        <a style="text-decoration: none;" href="#"><h1 class="rpdh1">Rust Programlama Dili için "Hello World"</h1></a>
+        <h6 class="h27">27 MART 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p13">Yakın zamanda yazılımcılardan oluşan bir ekibe Rust programlama dili ile ilgili bildiklerimi anlattım. Bunu yaparken örnek bir program kodu üzerinden ilerledim. İlk etapta neyi nasıl anlatacağım konusunda hiçbir fikrim yoktu. Sonrasında doğaçlama ilerlemeye ve yolda karşımıza çıkacak sorunlar üzerinden dili tanıtmaya karar verdim. Derken anlattıklarımı bir video haline getirsem iyi olabilir diye düşündüm. Pek tabii Rust dilini yeni öğrenen birisi olarak bunu 1 saatlik bir zaman diliminde yapmak pek mümkün değil. Yine de ilerisi için iyi bir hazırlık oldu. Belki ilgi duyan arkadaşlar için yol gösterici de olur. Deneysel amaçla gerçekleştirdiğim bu görsel derste aşağıdaki konulara değindim. <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a></p>
+    </div>
+
+    <div class="container15"> 
+        <a style="text-decoration: none;" href="#"><h1 class="rhh1">Rust Pratikleri - HTTP Sunucusu Yazmak/Yazmaya Çalışmak</h1></a>
+        <h6 class="h620">20 MART 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p14">Bir HTTP sunucusu yazmaya ne gerek var diyebilirsiniz. Öyle düşünmeyin. Bir programlama dilini öğrenmenin en iyi yolu, var olan yapıları o dille yazmaya çalışmaktır. Hangi dil ya da platform olursa olsun ortada dolaşan yüzlerce HTTP server zaten var. Ancak nasıl çalıştıklarını anlamak için de yine yeniden yazmakta yarar var. Bugünkü pratiğimizde Rust dilini kullanarak bir HTTP server nasıl yazılabilir incelemeye çalışacağız. Esasında sadece minik bir başlanıç yapacağız. Nitekim bir HTTP sunucusunun görevleri çok geniş olabilir. Sonuçta IIS Server yazmayacağız ancak genel felsefeyi öğreneceğiz. <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a></p>
+    </div>
+
+    <div class="container16">
+        <a style="text-decoration: none;" href="#"><h1 class="rpsh1">Rust Pratikleri - Serde, Json ve Biraz Eğlence</h1></a>
+        <h6 class="h613">13 MART 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p16">Sanıyorum ki JSON veriler ile çalışmaya programlama dili, ortam yoktur. Sonuç itibariyle bir takım verileri düzenli, standart ve insan gözüyle okunabilir bir formatta tutmanın en iyi yollarından birisi JSON. Öncesinden gelen XML formatına göre daha az yer tutması da cazibesini artırmaktadır. Tabii günümüzde BSON gibi sıkıştırılabilir ve çok daha hızlı yol alabilen seçenekler de mevcut ama rust dilini öğrenirken bunun pratiğini yapmadan olmaz. Bu noktada işimizi epey kolaylaştıran bir kütüphane olduğunu ifade edebilirim. Serde isimli çatı(ki framework olarak işaret ediliyor) JSON ile çalışma konusunda epey popüler. <a style="text-decoration: none; color: blue;" href="#"> [Daha fazla]</a></p>
+    </div>
+
+    <div class="container17">
+        <a style="text-decoration: none;" href="#"><h1 class="rplh1">Rust Pratikleri - Lifetimes Mevzusu</h1></a>
+        <h6 class="h606">06 MART 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p17">Rust'ın özellikle Garbage Collector kullanılan dillerden çok farklı olduğunu bellek yönetimi için getirdiği kurallardan dolayı biliyoruz. Ownership, borowwing gibi hususlar sayesinde güvenli bir bellek ortamını garanti etmek üzerine ihtisas yapmış bir dil. Bunlar pek çok dilde otomatik yönetildiği için Rust'ı öğrenmek zaman alabiliyor. Zor konulardan birisi de Lifetimes mevzusu. Bu konuyu esasında sevgili Bora Kaşmer ile başladığımız 45 Byte sohbetlerinde dile getirmek istiyorum. Lakin çok basit bir örnek gerekiyor ve String türü ile literal string arasındaki fark bu işi anlatmak için biçilmiş kaftan. Hiç vakit kaybetmeden proje iskeletini oluşturarak devam edelim. <a style="text-decoration: none; color: blue;" href="#"> [Daha fazla]</a></p>
+    </div>
+
+    <div class="container18">
+        <a style="text-decoration: none;" href="#"></a><h1 class="rpgh1">Rust Pratikleri - GDB ile Debug İşlemleri</h1>
+        <h6 class="h627s">27 ŞUBAT 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p18">Rust ile ilgili öğretilerde bellek yönetimi konusunu incelerken fonksiyon ve değişkenlere ait kapsamların bellekte nasıl açıldığını görmek için GNU Debugger'dan(kısaca GDB) yararlanıldığını gördüm. Kodu debug etmek deyince insanın aklına Visual Studio gibi gelişmiş IDE'lerin kolaylıkları geliyor ve bu nedenle GDB ilkel bir araç gibi görünebilir. Yine de rust kodunu terminalden adım adım işletmek ve bellek üzerindeki konumlandırmaları görmek(stack açılımlarını izleyip pointer'ları analiz etmek gibi) adına son derece faydalı bir araç. Rust dilinde ilerlemek isteyenlerin bilmesi ve kullanması gereken bir yardımcı. Öncelikle üzerine çalıştığım Ubuntu platformuna yüklemem lazım. Bu arada GDB ile ilgili detaylar için şu adrese bakılabilir. <a style="text-decoration: none; color: blue;"  href="#"> [Daha fazla]</a></p>
+    </div>
+
+    <div class="container19">
+        <h1 class="rpch1">Rust Pratikleri - Channels</h1>
+        <h6 class="h20">20 ŞUBAT 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p19">Thread'ler aralarında haberleşmek için kanallardan(channels) yararlanır. Rust dilinde bu amaçla built-in modüllerinden olan mpsc(multi-producer single-consumer) paketi kullanılır. Bu paket aslında FIFO(First-In First-Out) ilkesine göre çalışan tipik bir kuyruk yapısıdır. Kanallar yardımıyla örneğin iki thread arasında bir kanal açıp tek yönlü olarak mesaj göndermek mümkündür. Böylece bir thread'den diğerine çeşitli verileri aktarabiliriz. Hatta asenkron ve olay güdümlü(event-driven) haberleşmeler tesis edebiliriz. Bir veri türünün kanalda akması için Send trait'ini uyarlamış olması gerekir. Primitive tiplerin hepsi bu davranışa sahiptir... <a style="text-decoration: none; color: blue;" href="#"> [Daha fazla]</a></p>
+    </div>
+
+    <div class="container20">
+        <h1 class="rpd">Rust Pratikleri - Dokümantasyon</h1>
+        <h6 class="h13">13 ŞUBAT 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p20">Bir programlama dilini iyi yapan ve onu öne çıkaran bazı önemli unsurlar vardır. İdeal bir söz dizimi oluşturulması için önerilerde bulunmak, kullanılan fonksiyon veya türlerle ilgili yardım dokümantasyonları sunmak, merkezi ve başarılı bir paket yönetim sistemine sahip olmak bunlar arasında sayılabilir. Rust dilindeki pek çok kural sayesinde bellek sahasının güvende kaldığı(memory safe), dangle pointer, data race, memory leak gibi sorunların oluşmadığı, performansı yüksek ve üstelik bütün bunlar için garbage collector benzeri mekanizmalara ihtiyaç duymayacak şekilde geliştirme yapmamız mümkün. Yine de idiomatic olarak ifade edilen ve dilin en ideal şekilde kullanılmasını tarifleyen ihtiyaç için yardım almamız gerekiyor. Bu anlamda cargo clippy en büyük destekçimiz. Ancak kaliteli kodlamanın olmazsa olmaz önemli özelliklerinden birisi de elbette verimli içerik sunan dokümantasyon. Özellikle yazdığımız kütüphaneleri herkesin kullanımına açmak istediğimiz senaryolarda bu konuya azami özeni göstermek lazım. <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a></p>
+    </div>
+
+    <div class="container21">
+        <a style="text-decoration: none;" href="#"><h1 class="rpmhh">Rust Pratikleri - Multithreading</h1></a>
+        <h6 class="h06">06 ŞUBAT 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p21">Uygulamalar işletim sistemlerince Process olarak ayağa kaldırılırlar. Bir process içerisindeki işleri birbirlerinden bağımsız olarak yapan thread'ler de söz konusu olabilir. Çoğu zaman çalıştırılabilir programın main fonksiyonu ile akan akış tek bir thread ile işleyişini sürdürür ama ihtiyaç dahillinde yeni thread'ler açmak gerekir. Rust için process içerisinde bir thread açmak oldukça kolaydır ve bellek tüketimi açısından maliyeti düşüktür. Ownership ve borrowing kuralları sayesinde bellek sahası güvende kalır ve özellikle data-race sorunları oluşmaz... <a style="text-decoration: none; color: blue;" href="#"> [Daha fazla]</a></p>
+    </div>
+
+    <div class="container22">
+        <a style="text-decoration: none;" href="#"><h1 class="rpl">Rust Pratikleri - Loglama</h1></a>
+        <h6 class="h30">30 OCAK 2022 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p22">Bugün bir redis, rabbitmq, kafka sunucusu başlattığımızda ya da docker container’ı içerisine komut satırı açtığımızda terminal ekranına akan sayısız log içeriği olduğunu görüyoruz. Bu loglar hataları görmek, uyarıları çabucak fark etmek açısından sistem programcıları için son derece kıymetli bilgilerden oluşuyor. Çok doğal olarak Rust ile yazılan uygulamalar içinden log yayınlamak isteyebiliriz ki Rust’ın asıl odağının sistem programlama olduğunu da düşünecek olursak bu gereklidir. Rust Pratiklerinin bu ilk bölümünde log ve env_logger küfelerini kullanarak basit anlamda loglamanın nasıl yapıldığını öğreneceğiz. <a style="text-decoration: none; color: blue;" href="#"> [Daha fazla]</a></p>
+    </div>
+
+    <div class="container23">
+        <a style="text-decoration: none;" href="#"><h1 class="ppr">Programcıdan Programcıya Rust</h1></a>
+        <h6 class="h24">24 ARALIK 2021 BURAK-SELIM-SENYURT RUST</h6>
+        <p class="p23">İki yıl kadar önce bir merakla başladığım ama sonrasında takıntı haline gelen bir uğraş edindim; Rust programlama dili. Profesyonel iş yaşantımın neredeyse tamamında .Net platformu üstünde geliştirme yaptım ve halen daha maaşımı ondan kazanıyorum. Bazı zamanlar Python, Go, Ruby gibi dillere de baktım ama hep hobi olarak kaldılar. Rust içinse aynı şeyi söylemem zor. Onunla ilgili resmi dokümantasyonu takip edip birkaç satır kod yazmaya başladım ve derken sayısız derleme zamanı hatası ile karşılaştım. Bunların neredeyse büyük çoğunluğu borrowing, ownership, lifetimes gibi konularla ilintiliydi ve her biri Rust’ın temelde bilinmesi gereken demirbaşları. <a style="text-decoration: none; color: blue;" href="#"> [Daha fazla]</a></p>
+    </div>
+    
+    <div class="container24">
+        <a style="text-decoration: none;" href="#"><h1 class="mt">Monolitik Uygulamalarda Teknik Borçlanma ile Mücadele (Teori)</h1></a>
+        <h6 class="h623">23 EKIM 2021 BURAK-SELIM-SENYURT DENEYIMLER</h6>
+        <p class="p24">Yazılımcı olmanın bir gerçeği de üretim ortamından gelen problemler ile uğraşmaktır belki de. Çalışmakta olduğumuz sistemlerin giderek büyümesi, iş kurallarının zamanla karmaşıklaşması, nasıl yapılır nereye bakılır bilgisinin ayrılan iş gücü nedeniyle eksilmesi, entegrasyon noktalarının çoğalması ve daha birçok sebepten ötürü bu kaçınılmazdır. Her birimiz yazılım yaşam süresi boyunca farklı tipte mimariler üzerinde çalışırız. Örneğin 2021 yılının ilk çeyreğinde hazırladığım ve yedi yüzden fazla kişinin katıldığı “Teknik Borç Farkındalık Anketi” isimli çalışmanın sonuçlarına göre beşimizden dördünün katmanlı mimari olarak adlandırdığımız monolitik sistemlerde görev aldığını söyleyebiliriz. Hele ki sektörde yirmi yılı deviren bir yazılım geliştirici iseniz (ki yine anket sonuçlarına göre neredeyse %40ımız 10 yaşından büyük ürünlerle çalışmış) böyle bir sistemle yolunuzun kesişmemiş olması pek mümkün değildir. <a style="text-decoration: none; color: blue;" href="#"> [Daha fazla]</a></p>
+    </div>
+
+    <div class="container25">
+        <a style="text-decoration: none;" href="#"><h1 class="eeb">Effective Engine — Bir Uzay Macerası</h1></a>
+        <h6 class="h14">14 MAYIS 2021 BURAK-SELIM-SENYURT ASP.NET WEB API</h6>
+        <p class="p25">Altunizade’nin bahar aylarında insanı epey dinlendiren yeşil yapraklı ağaçları ile çevrelenmiş caddesinin hemen sonunda, köprüye bağlanmadan iki yüz metre kadar öncesinde dört katlı bir bina vardır. Araba ile geçerken eğer kırmızı ışığa denk gelmediyseniz pek fark edilmez ama yürürken önündeki geniş kaldırımları ile dikkat çeker. Ana cadde tarafındaki yeşillikler binanın ilk katlarını gizemli bir şekilde saklar. Binanın bulunduğu adanın etrafı cadde ve ara sokaklarla çevrilidir. Bir sokağın karşısında yeni yapılmış hastane ile metro çıkışı, ana cadde tarafında ev yapımı tatlılarının kokusu ile insanı baştan çıkaran pastane, eczane, kuaför, camii ve minik bir park bulunur. Dört yola bakan diğer cadde tarafında ise eskiden karakol olan ama çok uzun zamandır kreş olarak işletilen bir komşu yer alır. <a style="text-decoration: none; color: blue;" href="#"> [Daha fazla]</a></p>
+    </div>
+
+    <div class="container26">
+        <a style="text-decoration: none;" href="#"><h1 class="bsb">Birisi Sana "Blazor Nedir?" Diye Sorarsa</h1></a>
+        <h6 class="h08">08 MAYIS 2021 BURAK-SELIM-SENYURT BLAZOR</h6>
+        <p class="p26">Yeni bir on yılın arifesini çoktan geçtik ve bu on yıla girmeden önce Microsoft çok önemli geliştirmelerin altına imza attı. Açık kaynak dünyasına hızlı bir girişten sonra yıllardır devam eden Mono projesi daha da anlam kazandı. Artık elimizde Silverlight, Windows Phone, Web Forms, .Net Remoting gibi kavramlar yok. Bunların yerine yenileri ve daha fazlası geldi. Xamarin ile platform bağımsız oyunlar, mobil uygulamalar, macOS ve linux ayırt etmeksizin çalışan kodlar... Dahası da var. 2017'de başlatılan ve standart haline gelen WASM(Web Assembly), Microsoft cephesinin gözünden kaçmadı. 2018 yılında deneysel bir çalışma olarak başlayan Blazor yıllar içerisinde gelişti ve şu anda üzerine yatırım yapılması gereken(mesela on yıllık Asp.Net Web Forms tabanlı ürünlerinizi modernize etmek istiyorsanız) bir konu haline geldi. Ancak ortada önemli bir sorun var. Onu bir arkadaşına nasıl anlatırsın? <a style="text-decoration: none; color: blue;" href="#">[Daha fazla]</a></p>
+    </div>
+
+</body>
+</html>
